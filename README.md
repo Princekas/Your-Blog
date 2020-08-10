@@ -23,14 +23,14 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
 
-<img src="image1.jpeg" width="900" height="400">
-<img src="image2.jpeg" width="900" height="400">
-<img src="image3.jpeg" width="900" height="400">
-<img src="image4.jpeg" width="900" height="400">
-<img src="image5.jpeg" width="900" height="400">
-<img src="image6.jpeg" width="900" height="400">
-<img src="image7.jpeg" width="900" height="400">
-<img src="image8.jpeg" width="900" height="400">
+<img src="image1.png" width="900" height="400">
+<img src="image2.png" width="900" height="400">
+<img src="image3.png" width="900" height="400">
+<img src="image4.png" width="900" height="400">
+<img src="image5.png" width="900" height="400">
+<img src="image6.png" width="900" height="400">
+<img src="image7.png" width="900" height="400">
+<img src="image8.png" width="900" height="400">
 
 
 
