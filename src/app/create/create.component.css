@@ -1,0 +1,9 @@
+.round{
+    border-radius: 15px;
+    border-color: teal;
+    box-shadow: tomato;
+    border-width: 2px;
+}
+textarea{
+    width: 100%;
+}

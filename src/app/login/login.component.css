@@ -1,0 +1,18 @@
+.background{
+    background-color: teal;
+    height: 100%;
+}
+.card{
+    background-color:transparent!important;
+    color:white;
+    border: none;
+    margin-top: 35%;
+}
+#belowbutton{
+    background-color: transparent;
+    color: white;
+}
+#button
+{
+    border-radius: 35px;
+}

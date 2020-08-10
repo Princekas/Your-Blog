@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+<div class="row background">
+
+    <div class="offset-sm-4 col-sm-4">  <!-- A webpage contain 12 colume and offset make space from both side -->
+
+        <div class="card-body">
+
+            <div class="card-title text-center">
+
+                <h5 >Login Using Your Email</h5>
+
+            </div>
+
+            <div class="card-text">
+
+                <form class="form-group" [formGroup]="myForm" (ngSubmit)="onSubmit(myForm)">
+
+                    <div class="form-group" >
+
+                         <input type="email" class="form-control" placeholder="Enter Your Email" name="email" [formControl]="myForm.controls['email']">
+
+                   </div>
+
+                   <div class="alert alert-danger"*ngIf="(!myForm.controls['email'].valid && myForm.controls['email'].touched)">A valid Email is required</div>
+                   <div class="form-group">
+                       <input type="password" class="form-control" placeholder="Enter Password" name="password" [formControl]="myForm.controls['password']">
+                    
+                   </div>
+
+                   <div class="alert alert-danger" *ngIf="(!myForm.controls['password'].valid && myForm.controls['password'].touched)">Password is Required</div>
+
+                   <div class="text-center">
+                       <button type="submit" class="btn btn-block btn-warning round" id="button" [disabled]="!myForm.valid" routerLink="/myblog"  (click)="onSubmit(myForm)">Submit</button>
+                   </div>
+
+
+                </form>
+            <div class="text-center mt-3" >
+                <button class="btn btn-link" id="belowbutton" routerLink="/signup">Don't have an account ? Create One</button>
+
+            </div>
+
+
+            </div>
+
+            <div class="alert alert-success" *ngIf="message.length > 0">You Have Been Logged In Successfully</div>
+            <div class="alert alert-danger" *ngIf="userError">
+                {{userError.message}}
+            </div>
+
+                
+
+
+        </div>
+
+       
+
+   
+
+    </div>
+     
+    
+
+
+</div>
